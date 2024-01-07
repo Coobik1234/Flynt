@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FlintSquareBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FlintSquareBricks"
+      },
+      {
+        "value": "CUSTOM:FlintSquareBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FlintSquareBricks"
+      },
+      {
+        "value": "CUSTOM:FlintSquareBricks"
+      },
+      {
+        "value": "CUSTOM:FlintSquareBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Flintsquarebrickstairs"
+    },
+    "name": "flintsquarebrickstairsrecipe",
+    "namespace": "mod"
+  }
+}
