@@ -1,0 +1,950 @@
+{
+  "mod_elements": [
+    {
+      "name": "BlockOfFlint",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_flint",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/blockstates/block_of_flint.json",
+          "src/main/java/net/mcreator/flynt/block/BlockOfFlintBlock.java",
+          "src/main/resources/assets/flynt/models/item/block_of_flint.json",
+          "src/main/resources/assets/flynt/models/block/block_of_flint.json"
+        ]
+      }
+    },
+    {
+      "name": "FlintBricks",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/item/flint_bricks.json",
+          "src/main/resources/assets/flynt/blockstates/flint_bricks.json",
+          "src/main/java/net/mcreator/flynt/block/FlintBricksBlock.java",
+          "src/main/resources/assets/flynt/models/block/flint_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "FlintBigBricks",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_big_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/block/flint_big_bricks.json",
+          "src/main/resources/assets/flynt/blockstates/flint_big_bricks.json",
+          "src/main/resources/assets/flynt/models/item/flint_big_bricks.json",
+          "src/main/java/net/mcreator/flynt/block/FlintBigBricksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "FlintSquareBricks",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_square_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/block/flint_square_bricks.json",
+          "src/main/java/net/mcreator/flynt/block/FlintSquareBricksBlock.java",
+          "src/main/resources/assets/flynt/models/item/flint_square_bricks.json",
+          "src/main/resources/assets/flynt/blockstates/flint_square_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "FlintTiles",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/blockstates/flint_tiles.json",
+          "src/main/resources/assets/flynt/models/block/flint_tiles.json",
+          "src/main/java/net/mcreator/flynt/block/FlintTilesBlock.java",
+          "src/main/resources/assets/flynt/models/item/flint_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "VerticalFlintPlates",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vertical_flint_plates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/block/vertical_flint_plates.json",
+          "src/main/java/net/mcreator/flynt/block/VerticalFlintPlatesBlock.java",
+          "src/main/resources/assets/flynt/models/item/vertical_flint_plates.json",
+          "src/main/resources/assets/flynt/blockstates/vertical_flint_plates.json"
+        ]
+      }
+    },
+    {
+      "name": "HorizontalFlintPlates",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horizontal_flint_plates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/item/horizontal_flint_plates.json",
+          "src/main/resources/assets/flynt/models/block/horizontal_flint_plates.json",
+          "src/main/resources/assets/flynt/blockstates/horizontal_flint_plates.json",
+          "src/main/java/net/mcreator/flynt/block/HorizontalFlintPlatesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SmoothFlintBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_flint_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/item/smooth_flint_block.json",
+          "src/main/java/net/mcreator/flynt/block/SmoothFlintBlockBlock.java",
+          "src/main/resources/assets/flynt/models/block/smooth_flint_block.json",
+          "src/main/resources/assets/flynt/blockstates/smooth_flint_block.json"
+        ]
+      }
+    },
+    {
+      "name": "LittleFlintBricks",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "little_flint_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/flynt/block/LittleFlintBricksBlock.java",
+          "src/main/resources/assets/flynt/blockstates/little_flint_bricks.json",
+          "src/main/resources/assets/flynt/models/block/little_flint_bricks.json",
+          "src/main/resources/assets/flynt/models/item/little_flint_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "FlintDoor",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_door",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/flynt/block/FlintDoorBlock.java",
+          "src/main/resources/assets/flynt/models/block/flint_door_top_right_open.json",
+          "src/main/resources/assets/flynt/models/block/flint_door_top_left_open.json",
+          "src/main/resources/assets/flynt/models/block/flint_door_bottom_right.json",
+          "src/main/resources/assets/flynt/models/item/flint_door.json",
+          "src/main/resources/assets/flynt/blockstates/flint_door.json",
+          "src/main/resources/assets/flynt/models/block/flint_door_bottom_left.json",
+          "src/main/resources/assets/flynt/models/block/flint_door_bottom_right_open.json",
+          "src/main/resources/assets/flynt/models/block/flint_door_top_left.json",
+          "src/main/resources/assets/flynt/models/block/flint_door_bottom_left_open.json",
+          "src/main/resources/assets/flynt/models/block/flint_door_top_right.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintblock",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintdoorrecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintdoorrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintdoorrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flinttrapdoor",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flinttrapdoor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/flynt/block/FlinttrapdoorBlock.java",
+          "src/main/resources/assets/flynt/models/block/flinttrapdoor_open.json",
+          "src/main/resources/assets/flynt/models/block/flinttrapdoor.json",
+          "src/main/resources/assets/flynt/models/block/flinttrapdoor_top.json",
+          "src/main/resources/assets/flynt/models/item/flinttrapdoor.json",
+          "src/main/resources/assets/flynt/blockstates/flinttrapdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintbricksrecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintbricksrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintbricksrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintbigbricksrecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintbigbricksrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintbigbricksrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintsquarebricksrecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintsquarebricksrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintsquarebricksrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flinttilesrecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flinttilesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flinttilesrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintverticalplatesrecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintverticalplatesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintverticalplatesrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flinthorizontalplatesrecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flinthorizontalplatesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flinthorizontalplatesrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Smoothflintrecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoothflintrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/smoothflintrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Littleflintbricksrecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "littleflintbricksrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/littleflintbricksrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flinttrapdoorrecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flinttrapdoorrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flinttrapdoorrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintunblock",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintunblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintunblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintunbricksrecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintunbricksrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintunbricksrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintunbugbricksrecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintunbugbricksrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintunbugbricksrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintunsquarebricksrecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintunsquarebricksrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintunsquarebricksrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintuntilesrecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintuntilesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintuntilesrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintunverticalplatesrecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintunverticalplatesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintunverticalplatesrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintunhorizontalplatesrecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintunhorizontalplatesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintunhorizontalplatesrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintunsmoothflintrecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintunsmoothflintrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintunsmoothflintrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintunlittebricksrecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintunlittebricksrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintunlittebricksrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintstairs",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintstairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/block/flintstairs_outer.json",
+          "src/main/java/net/mcreator/flynt/block/FlintstairsBlock.java",
+          "src/main/resources/assets/flynt/models/item/flintstairs.json",
+          "src/main/resources/assets/flynt/models/block/flintstairs_inner.json",
+          "src/main/resources/assets/flynt/blockstates/flintstairs.json",
+          "src/main/resources/assets/flynt/models/block/flintstairs.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintbrickstairs",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintbrickstairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/flynt/block/FlintbrickstairsBlock.java",
+          "src/main/resources/assets/flynt/models/block/flintbrickstairs_inner.json",
+          "src/main/resources/assets/flynt/models/block/flintbrickstairs.json",
+          "src/main/resources/assets/flynt/models/block/flintbrickstairs_outer.json",
+          "src/main/resources/assets/flynt/models/item/flintbrickstairs.json",
+          "src/main/resources/assets/flynt/blockstates/flintbrickstairs.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintbigbrickstairs",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintbigbrickstairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/block/flintbigbrickstairs.json",
+          "src/main/resources/assets/flynt/models/block/flintbigbrickstairs_inner.json",
+          "src/main/java/net/mcreator/flynt/block/FlintbigbrickstairsBlock.java",
+          "src/main/resources/assets/flynt/models/block/flintbigbrickstairs_outer.json",
+          "src/main/resources/assets/flynt/blockstates/flintbigbrickstairs.json",
+          "src/main/resources/assets/flynt/models/item/flintbigbrickstairs.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintsquarebrickstairs",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintsquarebrickstairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/flynt/block/FlintsquarebrickstairsBlock.java",
+          "src/main/resources/assets/flynt/models/item/flintsquarebrickstairs.json",
+          "src/main/resources/assets/flynt/models/block/flintsquarebrickstairs_outer.json",
+          "src/main/resources/assets/flynt/models/block/flintsquarebrickstairs.json",
+          "src/main/resources/assets/flynt/models/block/flintsquarebrickstairs_inner.json",
+          "src/main/resources/assets/flynt/blockstates/flintsquarebrickstairs.json"
+        ]
+      }
+    },
+    {
+      "name": "Flinttilestairs",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flinttilestairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/block/flinttilestairs_outer.json",
+          "src/main/resources/assets/flynt/models/block/flinttilestairs_inner.json",
+          "src/main/resources/assets/flynt/blockstates/flinttilestairs.json",
+          "src/main/resources/assets/flynt/models/block/flinttilestairs.json",
+          "src/main/java/net/mcreator/flynt/block/FlinttilestairsBlock.java",
+          "src/main/resources/assets/flynt/models/item/flinttilestairs.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintverticalplatestairs",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintverticalplatestairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/block/flintverticalplatestairs_outer.json",
+          "src/main/resources/assets/flynt/models/block/flintverticalplatestairs.json",
+          "src/main/resources/assets/flynt/models/block/flintverticalplatestairs_inner.json",
+          "src/main/java/net/mcreator/flynt/block/FlintverticalplatestairsBlock.java",
+          "src/main/resources/assets/flynt/models/item/flintverticalplatestairs.json",
+          "src/main/resources/assets/flynt/blockstates/flintverticalplatestairs.json"
+        ]
+      }
+    },
+    {
+      "name": "Flinthorizontalplatestairs",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flinthorizontalplatestairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/block/flinthorizontalplatestairs.json",
+          "src/main/resources/assets/flynt/models/block/flinthorizontalplatestairs_inner.json",
+          "src/main/java/net/mcreator/flynt/block/FlinthorizontalplatestairsBlock.java",
+          "src/main/resources/assets/flynt/models/item/flinthorizontalplatestairs.json",
+          "src/main/resources/assets/flynt/models/block/flinthorizontalplatestairs_outer.json",
+          "src/main/resources/assets/flynt/blockstates/flinthorizontalplatestairs.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintsmoothstairs",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintsmoothstairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/blockstates/flintsmoothstairs.json",
+          "src/main/resources/assets/flynt/models/block/flintsmoothstairs_inner.json",
+          "src/main/resources/assets/flynt/models/block/flintsmoothstairs_outer.json",
+          "src/main/java/net/mcreator/flynt/block/FlintsmoothstairsBlock.java",
+          "src/main/resources/assets/flynt/models/item/flintsmoothstairs.json",
+          "src/main/resources/assets/flynt/models/block/flintsmoothstairs.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintlittlebrickstairs",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintlittlebrickstairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/item/flintlittlebrickstairs.json",
+          "src/main/resources/assets/flynt/models/block/flintlittlebrickstairs_inner.json",
+          "src/main/resources/assets/flynt/blockstates/flintlittlebrickstairs.json",
+          "src/main/resources/assets/flynt/models/block/flintlittlebrickstairs_outer.json",
+          "src/main/java/net/mcreator/flynt/block/FlintlittlebrickstairsBlock.java",
+          "src/main/resources/assets/flynt/models/block/flintlittlebrickstairs.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintstairsrecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintstairsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintstairsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintbrickstairsrecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintbrickstairsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintbrickstairsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintbigbrickstairsrecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintbigbrickstairsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintbigbrickstairsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintsquarebrickstairsrecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintsquarebrickstairsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintsquarebrickstairsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flinttilestairsrecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flinttilestairsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flinttilestairsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintverticalplatestairsrecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintverticalplatestairsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintverticalplatestairsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flinthorizontalplatestairsrecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flinthorizontalplatestairsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flinthorizontalplatestairsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintsmoothstairsrecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintsmoothstairsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintsmoothstairsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Flintlittlebricksrecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flintlittlebricksrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flynt/recipes/flintlittlebricksrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlintSlab",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/item/flint_slab.json",
+          "src/main/resources/assets/flynt/models/block/flint_slab.json",
+          "src/main/resources/assets/flynt/models/block/flint_slab_full.json",
+          "src/main/java/net/mcreator/flynt/block/FlintSlabBlock.java",
+          "src/main/resources/assets/flynt/models/block/flint_slab_top.json",
+          "src/main/resources/assets/flynt/blockstates/flint_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "FlintBricksSlab",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_bricks_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/flynt/block/FlintBricksSlabBlock.java",
+          "src/main/resources/assets/flynt/models/item/flint_bricks_slab.json",
+          "src/main/resources/assets/flynt/models/block/flint_bricks_slab.json",
+          "src/main/resources/assets/flynt/models/block/flint_bricks_slab_full.json",
+          "src/main/resources/assets/flynt/blockstates/flint_bricks_slab.json",
+          "src/main/resources/assets/flynt/models/block/flint_bricks_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "FlintBigBricksSlab",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_big_bricks_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/block/flint_big_bricks_slab.json",
+          "src/main/resources/assets/flynt/models/block/flint_big_bricks_slab_full.json",
+          "src/main/java/net/mcreator/flynt/block/FlintBigBricksSlabBlock.java",
+          "src/main/resources/assets/flynt/models/item/flint_big_bricks_slab.json",
+          "src/main/resources/assets/flynt/models/block/flint_big_bricks_slab_top.json",
+          "src/main/resources/assets/flynt/blockstates/flint_big_bricks_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "FlintSquareBrickSlab",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_square_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/blockstates/flint_square_brick_slab.json",
+          "src/main/resources/assets/flynt/models/block/flint_square_brick_slab_top.json",
+          "src/main/resources/assets/flynt/models/block/flint_square_brick_slab.json",
+          "src/main/resources/assets/flynt/models/block/flint_square_brick_slab_full.json",
+          "src/main/java/net/mcreator/flynt/block/FlintSquareBrickSlabBlock.java",
+          "src/main/resources/assets/flynt/models/item/flint_square_brick_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "FlintTilesSleb",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_tiles_sleb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/item/flint_tiles_sleb.json",
+          "src/main/resources/assets/flynt/blockstates/flint_tiles_sleb.json",
+          "src/main/resources/assets/flynt/models/block/flint_tiles_sleb.json",
+          "src/main/resources/assets/flynt/models/block/flint_tiles_sleb_top.json",
+          "src/main/java/net/mcreator/flynt/block/FlintTilesSlebBlock.java",
+          "src/main/resources/assets/flynt/models/block/flint_tiles_sleb_full.json"
+        ]
+      }
+    },
+    {
+      "name": "FlintVerticalPlatesSleb",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_vertical_plates_sleb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/item/flint_vertical_plates_sleb.json",
+          "src/main/resources/assets/flynt/models/block/flint_vertical_plates_sleb_full.json",
+          "src/main/resources/assets/flynt/models/block/flint_vertical_plates_sleb.json",
+          "src/main/java/net/mcreator/flynt/block/FlintVerticalPlatesSlebBlock.java",
+          "src/main/resources/assets/flynt/models/block/flint_vertical_plates_sleb_top.json",
+          "src/main/resources/assets/flynt/blockstates/flint_vertical_plates_sleb.json"
+        ]
+      }
+    },
+    {
+      "name": "FlintHorizontalPlatesSlab",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_horizontal_plates_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/block/flint_horizontal_plates_slab.json",
+          "src/main/java/net/mcreator/flynt/block/FlintHorizontalPlatesSlabBlock.java",
+          "src/main/resources/assets/flynt/blockstates/flint_horizontal_plates_slab.json",
+          "src/main/resources/assets/flynt/models/block/flint_horizontal_plates_slab_full.json",
+          "src/main/resources/assets/flynt/models/block/flint_horizontal_plates_slab_top.json",
+          "src/main/resources/assets/flynt/models/item/flint_horizontal_plates_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "SmoothFlintSlab",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_flint_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/blockstates/smooth_flint_slab.json",
+          "src/main/resources/assets/flynt/models/block/smooth_flint_slab_top.json",
+          "src/main/resources/assets/flynt/models/item/smooth_flint_slab.json",
+          "src/main/resources/assets/flynt/models/block/smooth_flint_slab.json",
+          "src/main/resources/assets/flynt/models/block/smooth_flint_slab_full.json",
+          "src/main/java/net/mcreator/flynt/block/SmoothFlintSlabBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "LittleFlintSlab",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "little_flint_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flynt/models/block/little_flint_slab_full.json",
+          "src/main/java/net/mcreator/flynt/block/LittleFlintSlabBlock.java",
+          "src/main/resources/assets/flynt/models/item/little_flint_slab.json",
+          "src/main/resources/assets/flynt/models/block/little_flint_slab_top.json",
+          "src/main/resources/assets/flynt/blockstates/little_flint_slab.json",
+          "src/main/resources/assets/flynt/models/block/little_flint_slab.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.flynt.flintsquarebrickstairs": "Flint Square Brick Stairs",
+      "block.flynt.flint_horizontal_plates_slab": "Flint Horizontal Plates Slab",
+      "block.flynt.flinttilestairs": "Flint Tiles Stairs",
+      "block.flynt.little_flint_bricks": "Litte Flint Bricks",
+      "block.flynt.flintsmoothstairs": "Polished Flint Stairs",
+      "block.flynt.flint_square_brick_slab": "Flint Square Bricks Slab",
+      "block.flynt.flint_big_bricks": "Big Flint Bricks",
+      "block.flynt.flintlittlebrickstairs": "Flint Little Bricks Stairs",
+      "block.flynt.flintstairs": "Flint Stairs",
+      "block.flynt.flintbigbrickstairs": "Flint Stairs",
+      "block.flynt.flintverticalplatestairs": "Flint Vertical Plates Stairs",
+      "block.flynt.flinthorizontalplatestairs": "Flint Horizontal Plates Stairs",
+      "block.flynt.flint_bricks": "Flint Bricks",
+      "block.flynt.vertical_flint_plates": "Vertical Flint Plates",
+      "block.flynt.flint_slab": "Flint Slab",
+      "block.flynt.flint_tiles_sleb": "Flint Tiles Slab",
+      "block.flynt.horizontal_flint_plates": "Horizontal Flint Plates",
+      "block.flynt.block_of_flint": "Block of Flint",
+      "block.flynt.flint_bricks_slab": "Flint Bricks Slab",
+      "block.flynt.smooth_flint_slab": "Polished Flint Slab",
+      "block.flynt.flint_tiles": "Flint Tiles",
+      "block.flynt.flint_vertical_plates_sleb": "Flint Vertival Plates Slab",
+      "block.flynt.flint_door": "Flint Door",
+      "block.flynt.flint_square_bricks": "Square Flint Bricks",
+      "block.flynt.little_flint_slab": "Little Flint Bricks Slab",
+      "block.flynt.flinttrapdoor": "Flint Trapdoor",
+      "block.flynt.flintbrickstairs": "Flint Brick Stairs",
+      "block.flynt.smooth_flint_block": "Polished Block of Flint",
+      "block.flynt.flint_big_bricks_slab": "Flint Big Bricks Slab"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "flynt",
+    "modName": "Flynt",
+    "version": "1.0.3",
+    "description": "Just a small mod that adds more uses for Flint",
+    "author": "Coobik, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "flyntlogo4",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Made with MCreator",
+    "modElementsPackage": "net.mcreator.flynt",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
